@@ -7,12 +7,20 @@
     <title>Big Screen Animation</title>
     <link rel="stylesheet" href="animation.css">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/d3/dist/d3.min.js"></script>
+    <script src="node_modules/echarts/dist/echarts.min.js"></script>
 </head>
 
 <body>
     <div id="wrapper">
-        <div class="side left"></div>
-        <div class="side right"></div>
+        <div class="side left">
+            <div id="bar-chart" class="chart"></div>
+            <div id="pie-chart" class="chart"></div>
+            <div id="circle-chart" class="chart"></div>
+        </div>
+        <div class="side right">
+            <div id="tree-chart" class="chart"></div>
+        </div>
     </div>
     <script src="./animation.js"></script>
 </body>

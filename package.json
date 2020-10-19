@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/akeyz/big-screen-structure#readme",
   "dependencies": {
+    "d3": "^6.2.0",
+    "echarts": "^4.9.0",
     "jquery": "^3.5.1"
   }
 }
