@@ -1,0 +1,23 @@
+{
+  "name": "big-screen-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akeyz/big-screen-structure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akeyz/big-screen-structure/issues"
+  },
+  "homepage": "https://github.com/akeyz/big-screen-structure#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

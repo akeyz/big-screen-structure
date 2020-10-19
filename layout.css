@@ -1,0 +1,17 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.grid {
+    position: absolute;
+    background: #0099ff75;
+    box-sizing: border-box;
+    border: 1px dashed #ff7c11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #5050503d;
+}
